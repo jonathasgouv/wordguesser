@@ -5,7 +5,6 @@ import string
 
 # Define a função que retira os acentos das palavras
 def remover_pont(txt):
-    import string
     return txt.translate(str.maketrans('', '', string.punctuation))
 
 def remover_acentos(txt):
